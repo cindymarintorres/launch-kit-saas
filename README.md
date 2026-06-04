@@ -233,30 +233,21 @@ launchkit/
 - Cuenta en Vercel (gratis) — [vercel.com](https://vercel.com)
 - Cuenta en GitHub para el deploy automático
 
-### 1️⃣ Crear el proyecto
+
+### 1️⃣ Clonar el repositorio
 
 ```bash
-pnpm create astro@latest launchkit
-# Template → Empty
-# TypeScript → Strict
-# Git → Yes
+git clone https://github.com/cindymarintorres/currency-flow.git
+cd launchkit-saas
 ```
 
-### 2️⃣ Agregar integraciones
+### 2️⃣ Instalar dependencias
 
 ```bash
-cd launchkit
-npx astro add react        # Islands de React
-npx astro add tailwind     # Tailwind v4 via Vite plugin
-npx astro add vercel       # Adapter para deploy
-pnpm install zod            # Validación en API routes
+pnpm install
 ```
 
-### 3️⃣ Configurar `astro.config.mjs`
-
-Ver sección de Tailwind v4 arriba.
-
-### 4️⃣ Arrancar el dev server
+### 3️⃣ Arrancar el dev server
 
 ```bash
 pnpm run dev                # localhost:4321
