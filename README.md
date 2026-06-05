@@ -237,7 +237,7 @@ launchkit/
 ### 1️⃣ Clonar el repositorio
 
 ```bash
-git clone https://github.com/cindymarintorres/currency-flow.git
+git clone https://github.com/cindymarintorres/launch-kit-saas.git
 cd launchkit-saas
 ```
 
